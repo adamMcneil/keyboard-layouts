@@ -1,7 +1,6 @@
-# Commands for install python
-python3 -m venv venv
-source venv/bin/activate
+# Configure
+[qmk configure website](https://config.qmk.fm/#/cannonkeys/bastiontkl/LAYOUT_all)
 
-python3 -m pip install qmk
-
-qmk flash keebio_foldkb_rev1_workman_home_mod.hex
+# Flashing
+- press the button on the back of the keyboard
+- run flash.sh
